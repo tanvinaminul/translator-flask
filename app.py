@@ -17,7 +17,7 @@ def en_post():
     text = flask_request.form['text']
     
     # Load the values from .env
-    key = "56021f41d65c4246bdf51a20569d0cee"
+    key = "your Subscription Key"
     endpoint = "https://api.cognitive.microsofttranslator.com/"
     location = "eastus"
 
